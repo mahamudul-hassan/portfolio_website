@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mahamudul Hassan Siddique — Researcher in Operations Research, Evolutionary Game Theory, Multi-Agent Reinforcement Learning, and Bayesian Optimization. BUET, Bangladesh." />
+  <meta property="og:title" content="Mahamudul Hassan Siddique — Researcher" />
+  <meta property="og:description" content="Final-year IPE researcher at BUET. 6 publications. Open to PhD positions and research collaborations." />
+  <title>Mahamudul Hassan Siddique — Researcher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════════ -->
+<!-- SCROLL PROGRESS BAR -->
+<div id="scroll-progress"></div>
+
+<!-- BACK TO TOP -->
+<button id="back-to-top" aria-label="Back to top" title="Back to top">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/>
+  </svg>
+</button>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">M<span>.</span>H<span>.</span>S</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section id="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Industrial &amp; Production Engineering · BUET</p>
+    <h1 class="hero-name">
+      Mahamudul<br />
+      <strong>Hassan Siddique</strong>
+    </h1>
+    <p class="hero-role">
+      Researcher in <span id="typed-text">Operations Research</span><span class="typed-cursor">|</span>
+    </p>
+    <p class="hero-tagline">
+      I work at the convergence of optimization theory, evolutionary game dynamics,
+      and machine intelligence — building frameworks that make complex systems legible,
+      controllable, and efficient.
+    </p>
+    <div class="hero-tags">
+      <span class="hero-tag">Bayesian Optimization</span>
+      <span class="hero-tag">Multi-Agent RL</span>
+      <span class="hero-tag">Evolutionary Game Theory</span>
+      <span class="hero-tag">Metaheuristics</span>
+      <span class="hero-tag">LLM Knowledge Editing</span>
+      <span class="hero-tag">Deep Learning</span>
+    </div>
+    <div class="hero-actions">
+      <a href="#publications" class="btn btn-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        View Publications
+      </a>
+      <a href="CV.pdf" class="btn btn-secondary" download>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+        Download CV
+      </a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-mouse"><div class="scroll-dot"></div></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     ABOUT
+══════════════════════════════════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+
+      <div class="about-photo-wrap reveal">
+        <div class="about-photo-frame">
+          <img src="portfolio_photo.jpg" alt="Mahamudul Hassan Siddique" />
+          <div class="about-photo-deco"></div>
+          <div class="about-photo-deco2"></div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <span class="section-label reveal">About Me</span>
+        <h2 class="section-title reveal reveal-delay-1">A researcher who lives<br /><em>between disciplines</em></h2>
+        <div class="gold-line reveal reveal-delay-2"></div>
+        <p class="about-intro reveal reveal-delay-2">
+          I am a final-year Industrial &amp; Production Engineering student at Bangladesh University
+          of Engineering and Technology (BUET) whose work sits at the confluence of operations research,
+          evolutionary game theory, and intelligent optimization. My research is driven by a conviction
+          that the boundaries separating biological strategy, industrial systems, and computational
+          intelligence are far more permeable than conventionally assumed — and that the most
+          transformative insights emerge precisely at those intersections.
+        </p>
+        <p class="about-intro reveal reveal-delay-3">
+          With six conference publications and four journal articles currently under review,
+          I have engaged with problems ranging from multi-agent reinforcement learning for
+          recovering evolutionarily stable strategies, to Bayesian self-supervised neural networks
+          for complex engineering design. I am an active collaborator with international researchers
+          and I am actively seeking PhD opportunities and research partnerships where rigorous
+          mathematical frameworks meet real-world complexity.
+        </p>
+
+        <div class="about-stats reveal reveal-delay-4">
+          <div class="stat-card">
+            <span class="stat-number">6</span>
+            <span class="stat-label">Conference<br/>Publications</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">5</span>
+            <span class="stat-label">Journal Articles<br/>Under Review</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">2</span>
+            <span class="stat-label">International<br/>Awards</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">3.47</span>
+            <span class="stat-label">CGPA<br/>/ 4.00</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     RESEARCH INTERESTS
+══════════════════════════════════════════ -->
+<section id="research">
+  <div class="container">
+    <span class="section-label reveal">What I Study</span>
+    <h2 class="section-title reveal reveal-delay-1">Research <em>Interests</em></h2>
+    <p class="section-subtitle reveal reveal-delay-2">
+      My research portfolio spans eight interconnected domains — each chosen for its potential
+      to produce generalisable, high-impact insight.
+    </p>
+    <div class="gold-line reveal reveal-delay-2"></div>
+
+    <div class="research-grid">
+      <div class="research-card reveal">
+        <span class="research-icon">⚙️</span>
+        <h3>Operations Research</h3>
+        <p>Combinatorial and continuous optimisation, mathematical programming, decision modelling under uncertainty.</p>
+      </div>
+      <div class="research-card reveal reveal-delay-1">
+        <span class="research-icon">🎮</span>
+        <h3>Evolutionary Game Theory</h3>
+        <p>Population dynamics, evolutionarily stable strategies, replicator equations, and Bayesian-belief integrated game models.</p>
+      </div>
+      <div class="research-card reveal reveal-delay-2">
+        <span class="research-icon">🤖</span>
+        <h3>Multi-Agent Reinforcement Learning</h3>
+        <p>PPO, Dueling DQN, hierarchical MARL for recovering stable strategy equilibria in complex environments.</p>
+      </div>
+      <div class="research-card reveal reveal-delay-3">
+        <span class="research-icon">🔮</span>
+        <h3>Bayesian Optimization</h3>
+        <p>Tree-structured Parzen Estimators, surrogate modelling, initialization-free frameworks for MINLP and NLP problems.</p>
+      </div>
+      <div class="research-card reveal">
+        <span class="research-icon">🧠</span>
+        <h3>Machine Learning &amp; Deep Learning</h3>
+        <p>Supervised and self-supervised learning, symbolic regression, ensemble methods, and neural architecture design.</p>
+      </div>
+      <div class="research-card reveal reveal-delay-1">
+        <span class="research-icon">🌀</span>
+        <h3>Metaheuristics</h3>
+        <p>Genetic algorithms, NSGA-II/III, PSO, ACO, Differential Evolution — benchmarking and hybrid frameworks.</p>
+      </div>
+      <div class="research-card reveal reveal-delay-2">
+        <span class="research-icon">🏭</span>
+        <h3>Supply Chain &amp; Smart Manufacturing</h3>
+        <p>VRP, production planning, ergonomic design, CIM, and AI-driven manufacturing process optimisation.</p>
+      </div>
+      <div class="research-card reveal reveal-delay-3">
+        <span class="research-icon">💬</span>
+        <h3>LLMs &amp; Knowledge Editing</h3>
+        <p>Novel techniques for updating factual knowledge in large language models — ROME, FiNE, and beyond.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     EXPERIENCE
+══════════════════════════════════════════ -->
+<section id="experience">
+  <div class="container">
+    <span class="section-label reveal">Where I've Worked</span>
+    <h2 class="section-title reveal reveal-delay-1">Research &amp; Industry <em>Experience</em></h2>
+    <div class="gold-line reveal reveal-delay-2"></div>
+
+    <div class="experience-timeline">
+
+      <!-- Research Assistant -->
+      <div class="exp-item reveal">
+        <div class="exp-dot"></div>
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <h3 class="exp-role">Research Assistant <span class="exp-type">Remote Collaboration</span></h3>
+              <p class="exp-org">German University (Confidential) · Germany</p>
+            </div>
+            <span class="exp-date">Ongoing</span>
+          </div>
+          <ul class="exp-bullets">
+            <li>Collaborated with a PhD candidate on developing novel knowledge-editing techniques for Large Language Models (LLMs).</li>
+            <li>Contributed literature review, experimental support, and implementation — focusing on ROME, FiNE, and emerging editing methods.</li>
+            <li>Gained hands-on experience with state-of-the-art LLM internals and model surgery techniques.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="project-tag">LLMs</span>
+            <span class="project-tag">Knowledge Editing</span>
+            <span class="project-tag">ROME / FiNE</span>
+            <span class="project-tag">Python</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Thesis Research -->
+      <div class="exp-item reveal reveal-delay-1">
+        <div class="exp-dot"></div>
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <h3 class="exp-role">Undergraduate Thesis Researcher <span class="exp-type">Academic</span></h3>
+              <p class="exp-org">IPE, Bangladesh University of Engineering and Technology · Dhaka</p>
+            </div>
+            <span class="exp-date">Nov 2025 – Present</span>
+          </div>
+          <ul class="exp-bullets">
+            <li>Formulated a 5-objective MINLP model for POM spur gear optimization with 26 nonlinear ISO/VDI constraints.</li>
+            <li>Built a TPE-based Bayesian + self-supervised neural network framework achieving 98.39% transmission efficiency — outperforming 8 benchmark metaheuristics.</li>
+            <li>Supervised by Dr. Ahsan Akhtar Hasin, Professor, IPE, BUET.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="project-tag">Bayesian Optimization</span>
+            <span class="project-tag">Neural Networks</span>
+            <span class="project-tag">MINLP</span>
+            <span class="project-tag">Metaheuristics</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Industrial Attachment -->
+      <div class="exp-item reveal reveal-delay-2">
+        <div class="exp-dot"></div>
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <h3 class="exp-role">Industrial Attachment <span class="exp-type">Industry</span></h3>
+              <p class="exp-org">P.A. Knit Composite Ltd. (Group Reedisha) · Mymensingh, Bangladesh</p>
+            </div>
+            <span class="exp-date">2024</span>
+          </div>
+          <ul class="exp-bullets">
+            <li>Completed a full-cycle industrial attachment across 8 manufacturing sections — Knitting, Dyeing, Cutting, Printing, Embroidery, Sewing, Finishing, and QA.</li>
+            <li>Independently designed an ergonomic chair for RMG sewing operators — identified 65–76% MSD prevalence, conducted Bangladeshi anthropometric analysis, and validated with SolidWorks modelling.</li>
+            <li>ROI analysis demonstrated a 3–4 month payback period and BDT 10–15 crore annual net benefit for a 2,000-operator factory (300–1,000% ROI over 3 years).</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="project-tag">SolidWorks</span>
+            <span class="project-tag">Ergonomics</span>
+            <span class="project-tag">ROI Analysis</span>
+            <span class="project-tag">Manufacturing</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     PUBLICATIONS
+══════════════════════════════════════════ -->
+<section id="publications">
+  <div class="container">
+    <span class="section-label reveal">Scholarly Output</span>
+    <h2 class="section-title reveal reveal-delay-1"><em>Publications</em> &amp; Manuscripts</h2>
+    <div class="gold-line reveal reveal-delay-2"></div>
+
+    <div class="pub-tabs reveal reveal-delay-2">
+      <button class="pub-tab active" data-tab="conference">Conference Papers (6)</button>
+      <button class="pub-tab" data-tab="journal">Under Review (5)</button>
+    </div>
+
+    <!-- Conference Papers -->
+    <div class="pub-list active" id="tab-conference">
+
+      <div class="pub-card reveal">
+        <span class="pub-number">C5</span>
+        <div class="pub-body">
+          <p class="pub-title">A Multi-Agent Reinforcement Learning Approach for Recovering Evolutionarily Stable Strategies in Evolutionary Games Using Proximal Policy Optimization</p>
+          <p class="pub-description">Presents a computational framework that reformulates evolutionary games as multi-agent reinforcement learning problems, enabling equilibrium discovery in complex multi-player scenarios without requiring closed-form analytical solutions. Validated on an e-commerce counterfeit governance game with near-perfect agreement to theoretically derived equilibria.</p>
+          <div class="pub-meta">
+            <span class="pub-venue">IEOM Conference 2025</span>
+            <span class="pub-badge badge-first">1st Author</span>
+            <span class="pub-badge badge-award">🏆 1st Place · Best Track Paper</span>
+          </div>
+          <a href="https://index.ieomsociety.org/index.cfm/item/58131" target="_blank" rel="noopener" class="pub-link">
+            View Paper
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="pub-card reveal reveal-delay-1">
+        <span class="pub-number">C4</span>
+        <div class="pub-body">
+          <p class="pub-title">Initialization-Free Non-Linear Constrained Optimization Using a Bayesian Self-Supervised MLP</p>
+          <p class="pub-description">Introduces a neural network-based solver for nonlinear constrained optimization that removes the need for user-specified starting points. The framework prioritizes constraint feasibility and uses Bayesian hyperparameter search to navigate complex nonconvex landscapes, consistently delivering feasible solutions on standard engineering benchmarks.</p>
+          <div class="pub-meta">
+            <span class="pub-venue">IEOM Conference 2025</span>
+            <span class="pub-badge badge-first">1st Author</span>
+          </div>
+          <a href="https://index.ieomsociety.org/index.cfm/item/58113" target="_blank" rel="noopener" class="pub-link">
+            View Paper
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="pub-card reveal reveal-delay-2">
+        <span class="pub-number">C6</span>
+        <div class="pub-body">
+          <p class="pub-title">A Comparative Study of Genetic Algorithm and Multi-Agent Dueling DQN for a Complex Deterministic VRP</p>
+          <p class="pub-description">Benchmarks a genetic algorithm against a multi-agent deep reinforcement learning approach for a capacitated, time-windowed vehicle routing problem applied to large-scale medicine distribution in a megacity, evaluating both algorithms across multiple vehicle configurations on demand coverage, distance, time, and energy metrics.</p>
+          <div class="pub-meta">
+            <span class="pub-venue">IEOM Conference 2025</span>
+            <span class="pub-badge badge-first">1st Author</span>
+          </div>
+          <a href="https://index.ieomsociety.org/index.cfm/item/58142" target="_blank" rel="noopener" class="pub-link">
+            View Paper
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="pub-card reveal">
+        <span class="pub-number">C1</span>
+        <div class="pub-body">
+          <p class="pub-title">A Machine Learning–Driven Framework for Modeling and Forecasting Suicide Mortality in Asia: The Role of Multidimensional Socio-Economic Determinants</p>
+          <p class="pub-description">Examines the relationship between 22 socioeconomic indicators and suicide rates across six Asian countries using advanced machine learning models, identifying unemployment, crime rate, and healthy life expectancy as the most influential predictors, with partial dependence plots used to reveal the direction and shape of each factor's effect.</p>
+          <div class="pub-meta">
+            <span class="pub-venue">IEOM Conference 2025</span>
+            <span class="pub-badge badge-first">1st Author</span>
+          </div>
+          <a href="https://index.ieomsociety.org/index.cfm/item/58097" target="_blank" rel="noopener" class="pub-link">
+            View Paper
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="pub-card reveal reveal-delay-1">
+        <span class="pub-number">C2</span>
+        <div class="pub-body">
+          <p class="pub-title">Interpretable Modeling of Flank Wear in Drilling Using Symbolic Regression and Ensemble Machine Learning Techniques</p>
+          <p class="pub-description">Develops a hybrid prediction framework for tool flank wear in cast iron drilling, combining ensemble machine learning models with symbolic regression to achieve both high accuracy and interpretability. The symbolic model produces a compact mathematical expression linking wear to torque, thrust force, and drill diameter, enabling transparent, sensor-ready decision support.</p>
+          <div class="pub-meta">
+            <span class="pub-venue">ICMERE Conference</span>
+            <span class="pub-badge badge-second">2nd Author</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-card reveal reveal-delay-2">
+        <span class="pub-number">C3</span>
+        <div class="pub-body">
+          <p class="pub-title">Multi-Paradigm Predictive Modeling of Surface Roughness in Thermally Enhanced Friction Drilling of A356 Aluminum Alloy Using RSM–ML Integration</p>
+          <p class="pub-description">Models surface roughness in preheated friction drilling of aluminum alloy by integrating response surface methodology with machine learning, capturing both linear process-parameter effects and complex nonlinear interactions to improve predictive accuracy and guide process control decisions.</p>
+          <div class="pub-meta">
+            <span class="pub-venue">ICMERE Conference</span>
+            <span class="pub-badge badge-third">3rd Author</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Under Review -->
+    <div class="pub-list" id="tab-journal">
+
+      <div class="pub-card reveal">
+        <span class="pub-number">J1</span>
+        <div class="pub-body">
+          <p class="pub-title">A Cross-Regional Empirical Investigation of Suicide Determinants in Asia and Europe: Integrating Statistical Modelling and Machine Learning Approaches</p>
+          <p class="pub-description">Conducts a macro-level comparative analysis of suicide determinants across 6 Asian and 12 European countries using World Bank data (2000–2021), combining bootstrapping, PLS regression, and machine learning to identify and validate key socioeconomic and sociocultural predictors, with separate regional analyses to account for contextual differences.</p>
+          <div class="pub-meta">
+            <span class="pub-badge badge-first">Joint 1st Author</span>
+            <span class="pub-badge badge-review">Under Review</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-card reveal reveal-delay-1">
+        <span class="pub-number">J2</span>
+        <div class="pub-body">
+          <p class="pub-title">A Computational Framework to Solve High-Dimensional Intractable Analytical Evolutionary Game Theoretic Problems</p>
+          <p class="pub-description">Introduces a hierarchical multi-agent reinforcement learning architecture for recovering evolutionarily stable strategies in complex, high-dimensional evolutionary games where classical replicator dynamics and eigenvalue analysis become analytically intractable. The framework is validated against formal stability conditions on a three-player e-commerce counterfeit governance game.</p>
+          <div class="pub-meta">
+            <span class="pub-badge badge-first">1st Author</span>
+            <span class="pub-badge badge-review">Under Review</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-card reveal reveal-delay-2">
+        <span class="pub-number">J3</span>
+        <div class="pub-body">
+          <p class="pub-title">A Comparative Study of Bayesian Belief Integrated Evolutionary Game Model and Classical Evolutionary Game Theory</p>
+          <p class="pub-description">Develops a four-party evolutionary game model for digital marketplaces that incorporates a dynamic Bayesian belief-updating mechanism for consumers, capturing information asymmetry and trust formation that classical replicator dynamics cannot represent. The model identifies stable equilibria and compares their properties against those of the classical framework.</p>
+          <div class="pub-meta">
+            <span class="pub-badge badge-first">Joint 1st Author</span>
+            <span class="pub-badge badge-review">Under Review</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-card reveal">
+        <span class="pub-number">J4</span>
+        <div class="pub-body">
+          <p class="pub-title">User Initialization-Free &amp; Feasibility First Nonlinear Constrained Optimization via Bayesian Constrained Dual Unrolling Neural Network (BO-CDUNN)</p>
+          <p class="pub-description">Proposes an initialization-free, feasibility-first optimization framework using coupled primal and dual neural networks that model iterative optimization steps as differentiable layers. A Bayesian outer loop jointly tunes hyperparameters, enabling robust convergence to feasible, near-optimal solutions on seven engineering benchmark problems with zero constraint violation across all runs.</p>
+          <div class="pub-meta">
+            <span class="pub-badge badge-first">1st Author</span>
+            <span class="pub-badge badge-review">Under Review</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-card reveal reveal-delay-1">
+        <span class="pub-number">J5</span>
+        <div class="pub-body">
+          <p class="pub-title">Early Malaria Risk Screening in Nigerian Minors Using AutoML and Cluster-Based Analysis of Non-Clinical Survey Data</p>
+          <p class="pub-description">Proposes a scalable AutoML-driven framework for early malaria risk screening in Nigerian children under five, using household and socioeconomic survey data in place of clinical tests. Agglomerative hierarchical clustering is applied to reduce spatial bias inherent in nationally aggregated data, enabling cluster-specific model optimization for more equitable screening performance.</p>
+          <div class="pub-meta">
+            <span class="pub-badge badge-third">3rd Author</span>
+            <span class="pub-badge badge-review">Under Review</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     RESEARCH VISION
+══════════════════════════════════════════ -->
+<section id="vision">
+  <div class="container">
+    <div class="vision-content reveal">
+      <span class="vision-quote-mark">"</span>
+      <p class="vision-text">
+        My long-term vision is to develop a <em>unified computational intelligence paradigm</em> — one
+        that weaves together multi-agent reinforcement learning, evolutionary game theory, and Bayesian
+        optimisation to create adaptive, self-organising systems capable of navigating uncertainty
+        across both <em>engineered and socio-technical environments</em>. I am particularly drawn to
+        the question of emergent cooperation in multi-agent systems: how rational, self-interested
+        agents converge on evolutionarily stable strategies that are simultaneously individually
+        optimal and collectively efficient. Beyond theory, I aim to translate these frameworks into
+        tangible impact — in resilient supply chains, smart manufacturing, and
+        <em>AI-driven decision support</em> that operates at the boundary of human and machine intelligence.
+      </p>
+      <span class="vision-signature">— Research Vision · Mahamudul Hassan Siddique</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     THESIS
+══════════════════════════════════════════ -->
+<section id="thesis">
+  <div class="container">
+    <span class="section-label reveal">Undergraduate Thesis</span>
+    <h2 class="section-title reveal reveal-delay-1">Capstone <em>Research</em></h2>
+    <div class="gold-line reveal reveal-delay-2"></div>
+
+    <div class="thesis-card reveal">
+      <div class="thesis-header">
+        <span class="thesis-icon">⚡</span>
+        <div class="thesis-title-wrap">
+          <span class="thesis-badge">Thesis · BUET 2025–2026</span>
+          <h3 class="thesis-title">Multi-Objective Optimization of Polyoxymethylene Spur Gears Using Bayesian Optimization-Based Self-Supervised Neural Networks</h3>
+        </div>
+      </div>
+      <p class="thesis-abstract">
+        Proposed a hybrid framework combining Bayesian Optimization (Tree-structured Parzen Estimator)
+        with self-supervised neural networks to solve a multi-objective, mixed-integer nonlinear
+        programming (MINLP) problem for polymer spur gear design. Simultaneously optimised five
+        competing objectives — weight, power loss, centre distance, wear depth, and manufacturing cost
+        — under 26 nonlinear constraints from ISO/VDI standards. Benchmarked against eight state-of-the-art
+        metaheuristics including NSGA-II, NSGA-III, GA, PSO, SA, ACO, Tabu Search, and Differential Evolution.
+        Supervised by Dr. Ahsan Akhtar Hasin, Professor, IPE, BUET.
+      </p>
+      <div class="thesis-metrics">
+        <div class="thesis-metric">
+          <span class="thesis-metric-value">98.39%</span>
+          <span class="thesis-metric-label">Transmission Efficiency</span>
+        </div>
+        <div class="thesis-metric">
+          <span class="thesis-metric-value">6.76 W</span>
+          <span class="thesis-metric-label">Lowest Power Loss</span>
+        </div>
+        <div class="thesis-metric">
+          <span class="thesis-metric-value">31.14 MPa</span>
+          <span class="thesis-metric-label">Min. Contact Stress</span>
+        </div>
+        <div class="thesis-metric">
+          <span class="thesis-metric-value">8+</span>
+          <span class="thesis-metric-label">Algorithms Benchmarked</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     PROJECTS
+══════════════════════════════════════════ -->
+<section id="projects">
+  <div class="container">
+    <span class="section-label reveal">Built &amp; Designed</span>
+    <h2 class="section-title reveal reveal-delay-1">Selected <em>Projects</em></h2>
+    <div class="gold-line reveal reveal-delay-2"></div>
+
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <span class="project-icon">🔥</span>
+        <h3>Real-Time Fire Incident Detection &amp; Warning System</h3>
+        <p>Designed a real-time fire alarm and remote notification system using temperature and gas sensors with an ESP-01S microcontroller for continuous industrial monitoring in garment factories. Supervised by Dr. Nafis Ahmad, IPE, BUET.</p>
+        <div class="project-tags">
+          <span class="project-tag">Arduino</span>
+          <span class="project-tag">ESP-01S</span>
+          <span class="project-tag">Embedded Systems</span>
+          <span class="project-tag">IoT</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-1">
+        <span class="project-icon">🪑</span>
+        <h3>Ergonomic Chair Design for RMG Sewing Operators</h3>
+        <p>Identified musculoskeletal disorder risks (65–76% MSD prevalence), conducted anthropometric analysis for the Bangladeshi workforce, validated the design using SolidWorks 3D modelling. ROI analysis demonstrated a 3–4 month payback period and 300–1,000% ROI over 3 years.</p>
+        <div class="project-tags">
+          <span class="project-tag">SolidWorks</span>
+          <span class="project-tag">Ergonomics</span>
+          <span class="project-tag">Anthropometrics</span>
+          <span class="project-tag">ROI Analysis</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-2">
+        <span class="project-icon">🚛</span>
+        <h3>Concrete Mixture Truck — Full 3D Design</h3>
+        <p>Complete 3D mechanical design and assembly of a concrete mixture truck using SolidWorks, covering all moving components and structural elements.</p>
+        <div class="project-tags">
+          <span class="project-tag">SolidWorks</span>
+          <span class="project-tag">Mechanical Design</span>
+          <span class="project-tag">3D Modelling</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <span class="project-icon">💧</span>
+        <h3>Urban Water Logging Reducer</h3>
+        <p>Conceptual product design for rapidly removing excess rainwater from city streets, specifically addressing the severe urban waterlogging challenges in Dhaka, Bangladesh.</p>
+        <div class="project-tags">
+          <span class="project-tag">Product Design</span>
+          <span class="project-tag">Urban Engineering</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-1">
+        <span class="project-icon">🏗️</span>
+        <h3>Computer Integrated Manufacturing Plan</h3>
+        <p>Developed an end-to-end integrated manufacturing process plan as part of a CIM course project, including process flow, routing, and scheduling logic.</p>
+        <div class="project-tags">
+          <span class="project-tag">CIM</span>
+          <span class="project-tag">Process Planning</span>
+          <span class="project-tag">Manufacturing</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-2">
+        <span class="project-icon">🌍</span>
+        <h3>Remote Research Collaboration — LLM Knowledge Editing</h3>
+        <p>Collaborated with a PhD candidate at a German university on developing novel knowledge-editing techniques for Large Language Models, contributing literature review, experimental support, and implementation related to ROME and FiNE methodologies.</p>
+        <div class="project-tags">
+          <span class="project-tag">LLMs</span>
+          <span class="project-tag">Knowledge Editing</span>
+          <span class="project-tag">ROME / FiNE</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     SKILLS
+══════════════════════════════════════════ -->
+<section id="skills">
+  <div class="container">
+    <span class="section-label reveal">Technical Arsenal</span>
+    <h2 class="section-title reveal reveal-delay-1">Skills &amp; <em>Tools</em></h2>
+    <div class="gold-line reveal reveal-delay-2"></div>
+
+    <div class="skills-grid">
+
+      <div class="skill-group reveal">
+        <div class="skill-group-title">Programming</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">C</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal reveal-delay-1">
+        <div class="skill-group-title">ML / DL Libraries</div>
+        <div class="skill-pills">
+          <span class="skill-pill">PyTorch</span>
+          <span class="skill-pill">TensorFlow</span>
+          <span class="skill-pill">JAX</span>
+          <span class="skill-pill">Scikit-learn</span>
+          <span class="skill-pill">Optuna</span>
+          <span class="skill-pill">NumPy</span>
+          <span class="skill-pill">Pandas</span>
+          <span class="skill-pill">SciPy</span>
+          <span class="skill-pill">SymPy</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal reveal-delay-2">
+        <div class="skill-group-title">CAD / Simulation</div>
+        <div class="skill-pills">
+          <span class="skill-pill">SolidWorks</span>
+          <span class="skill-pill">AutoCAD</span>
+          <span class="skill-pill">CATIA</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-title">Data &amp; BI</div>
+        <div class="skill-pills">
+          <span class="skill-pill">SQL</span>
+          <span class="skill-pill">Power BI</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal reveal-delay-1">
+        <div class="skill-group-title">Cloud / IDE</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Google Colab</span>
+          <span class="skill-pill">Jupyter Notebook</span>
+          <span class="skill-pill">VS Code</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal reveal-delay-2">
+        <div class="skill-group-title">Document Prep</div>
+        <div class="skill-pills">
+          <span class="skill-pill">LaTeX</span>
+          <span class="skill-pill">MS Excel</span>
+          <span class="skill-pill">MS Word</span>
+          <span class="skill-pill">PowerPoint</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     AWARDS
+══════════════════════════════════════════ -->
+<section id="awards">
+  <div class="container">
+    <span class="section-label reveal">Recognition</span>
+    <h2 class="section-title reveal reveal-delay-1">Awards &amp; <em>Honours</em></h2>
+    <div class="gold-line reveal reveal-delay-2"></div>
+
+    <div class="awards-list">
+      <div class="award-card reveal">
+        <span class="award-icon">🥇</span>
+        <div class="award-body">
+          <p class="award-title">1st Place — Undergraduate Research Competition</p>
+          <p class="award-event">IEOM International Conference 2025 · Paper: Multi-Agent RL for Recovering ESS using PPO</p>
+        </div>
+      </div>
+      <div class="award-card reveal reveal-delay-1">
+        <span class="award-icon">🏆</span>
+        <div class="award-body">
+          <p class="award-title">Best Track Paper Award — Manufacturing, Assembly &amp; Design</p>
+          <p class="award-event">IEOM International Conference 2025 · Paper: Multi-Agent RL for Recovering ESS using PPO</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     CONTACT
+══════════════════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-content">
+      <span class="section-label reveal" style="display:block;text-align:center;">Let's Connect</span>
+      <h2 class="section-title reveal reveal-delay-1">Open to Collaboration<br/>&amp; <em>PhD Opportunities</em></h2>
+      <p class="contact-lead reveal reveal-delay-2">
+        Whether you are a professor looking for a motivated PhD candidate, a researcher interested
+        in collaborating on a problem at the intersection of optimisation and AI, or an R&amp;D
+        professional who sees potential in applying these ideas industrially — I would love to hear from you.
+      </p>
+      <a href="mailto:hassansiddique632@gmail.com" class="contact-email reveal reveal-delay-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        hassansiddique632@gmail.com
+      </a>
+
+      <div class="social-links reveal reveal-delay-4">
+        <a href="https://www.linkedin.com/in/mahamudul-hassan-5a34a9271/" target="_blank" rel="noopener" class="social-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/mahamudul-hassan" target="_blank" rel="noopener" class="social-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.researchgate.net/profile/Mahamudul-Hassan-Siddique" target="_blank" rel="noopener" class="social-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19.586 0c-.818 0-1.508.19-2.073.565-.563.377-.853.935-.853 1.68 0 .755.29 1.32.853 1.695.565.377 1.255.565 2.073.565.817 0 1.508-.188 2.073-.565.563-.375.853-.94.853-1.695 0-.745-.29-1.303-.853-1.68C21.094.19 20.403 0 19.586 0zM4.414 0C3.596 0 2.906.19 2.34.565 1.777.942 1.487 1.5 1.487 2.245c0 .755.29 1.32.853 1.695.565.377 1.255.565 2.074.565.817 0 1.508-.188 2.073-.565.563-.375.853-.94.853-1.695 0-.745-.29-1.303-.853-1.68C5.922.19 5.231 0 4.414 0zM12 0c-.818 0-1.508.19-2.074.565-.563.377-.853.935-.853 1.68 0 .755.29 1.32.853 1.695.566.377 1.256.565 2.074.565.817 0 1.508-.188 2.073-.565.563-.375.853-.94.853-1.695 0-.745-.29-1.303-.853-1.68C13.508.19 12.817 0 12 0z"/></svg>
+          ResearchGate
+        </a>
+        <a href="https://orcid.org/0009-0009-3868-1861" target="_blank" rel="noopener" class="social-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 3.872-2.412 3.872-3.722 0-2.016-1.116-3.722-3.884-3.722h-2.285z"/></svg>
+          ORCID
+        </a>
+        <a href="https://2008012.ipe.buet.ac.bd" target="_blank" rel="noopener" class="social-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+          BUET Profile
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer>
+  <p class="footer-text">
+    © 2026 <span>Mahamudul Hassan Siddique</span> · IPE, BUET, Dhaka, Bangladesh
+    · Built with intention.
+  </p>
+</footer>
+
+<!-- ══════════════════════════════════════════
+     AI CHATBOT
+══════════════════════════════════════════ -->
+<button id="chatbot-toggle" aria-label="Open research assistant">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" id="chat-icon-open">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714a2.25 2.25 0 001.357 2.059l.6.267a2.25 2.25 0 001.293.067l.577-.173a.75.75 0 11.432 1.433l-.577.173a3.75 3.75 0 01-2.154-.112l-.6-.267a3.75 3.75 0 01-2.262-3.43V3.104m2.25-.082A24.3 24.3 0 0014.25 3m0 0c.251.023.501.05.75.082M14.25 3a24.25 24.25 0 00-4.5 0"/>
+  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" id="chat-icon-close" style="display:none">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+  </svg>
+</button>
+
+<div id="chatbot-panel">
+  <div class="chatbot-header">
+    <div class="chatbot-avatar">🧠</div>
+    <div class="chatbot-header-text">
+      <p class="chatbot-name">Research Assistant</p>
+      <p class="chatbot-status">Ask me about Mahamudul's work</p>
+    </div>
+    <button class="chatbot-close" id="chatbot-close-btn" aria-label="Close">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="chatbot-messages" id="chatbot-messages">
+    <div class="msg msg-bot">
+      Hello! I'm an AI assistant here to help you learn about Mahamudul's research, publications, and background. What would you like to know?
+    </div>
+  </div>
+  <div class="chatbot-input-area">
+    <textarea id="chatbot-input" rows="1" placeholder="Ask about research, papers, collaborations..."></textarea>
+    <button id="chatbot-send" aria-label="Send">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"/></svg>
+    </button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
